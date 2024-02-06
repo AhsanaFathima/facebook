@@ -1,12 +1,16 @@
+.webpage{
+    display: flex;
+}
 body{
     background-color:rgba(211, 220, 233);
     margin: 0px;
     overflow-x: hidden;
 }
-.container {
+/* .container {
     max-width: 1300px;
     margin: 0 auto;
-  }
+  } */
+ 
   h1{
     margin: 0;}
     
@@ -17,11 +21,13 @@ body{
     height:150px;
     display:flex;
     color:white;
-    text-align: center;
+    text-align: start;
     align-items: center;
+    justify-content: center;
     
     
 }
+
 .login-button{
     color: white;
     border: 1px blue;
@@ -35,14 +41,13 @@ body{
 .text{
     display:flex;
     font-size: 50px;
-    height: 200px;
-    padding:100px;
-    padding-top: 200px;
+   
 }
 .top{
     
     display: flex;
     gap: 30px;
+    align-items:center;
     
 }
 .contents{
@@ -83,3 +88,4 @@ a{
     margin-top: 7px;
 }
  
+
